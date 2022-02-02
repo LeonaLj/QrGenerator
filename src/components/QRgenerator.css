@@ -4,24 +4,65 @@
     background-color: #82c76054;
     border-radius: 30px;
     padding: 40px;
+    min-height: 60vh;
+}
+
+#row {
+   margin-top: 40px;
 }
 
 h1 {
-    padding-bottom: 20px;
     color: #FB607F;
     font-weight: bold!important;
 }
 
 h3 {
     padding-top: 20px;
-    color: white;
+    color: #83C760;
     font-weight: bold!important;
+    text-align: center;
 }
 
+p {
+    font-size: 20px;
+    color: #83C760;
+    text-transform: uppercase;
+}
+
+span {
+    color:#FB607F;
+    font-weight: bold;
+}
+
+.intro-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.colored-row {
+    background-color:white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.color-picker {
+   margin: 40px 0;
+ 
+}
+
+.color-div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB607F;
+    border-radius: 10px 5pc 10px 5pc;
+    margin-bottom: 40px;
+}
 
 .generate-btn {
-    border-radius: 60px!important;
-    padding: 15px 60px!important;
+    border-radius: 10px!important;
+    padding: 15px 40px!important;
     text-transform: uppercase;
     background-color: #FB607F!important;
     border: none!important;
@@ -29,22 +70,19 @@ h3 {
 }
 
 .generate-btn:hover {
-    border-radius: 60px!important;
-    padding: 15px 60px!important;
-    text-transform: uppercase;
     background-color: #83C760!important;
-    border: none!important;
 }
 
 .qr-container {
-    background-color: #83C760;
-    border-radius: 30px;
+    background-color: white;
+    border-radius: 5pc 10px 5pc 10px;
     box-shadow: 2px 4px 2px 0 #FF91A4;
+    display: table;
 }
 
 .download-btn {
-    border-radius: 60px!important;
-    padding: 15px 40px!important;
+    border-radius: 10px!important;
+    padding: 15px 20px!important;
     text-transform: uppercase;
     background-color: #FB607F!important;
     border: none!important;
@@ -52,19 +90,17 @@ h3 {
 }
 
 .download-btn:hover {
-    border-radius: 60px!important;
-    padding: 15px 40px!important;
-    text-transform: uppercase;
     background-color: #FF91A4!important;
-    border: none!important;
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .qr-div {
     text-align: center;
+    display: table-cell; 
+    vertical-align: middle;
 }
 
 .qr-img {
@@ -85,6 +121,6 @@ h3 {
 
 .logo-icon {
     color: #FB607F!important;
-    font-size: 40px;
-    margin-bottom: 40px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
